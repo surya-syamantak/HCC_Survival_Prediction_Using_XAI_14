@@ -22,6 +22,7 @@ jupyter notebook
 ```
 
 ## Dataset
+This project uses the HCC dataset [11] from the UCI ML Repository. The dataset itself was collected from the hospital, Centro Hospitalar e Universitario de Coimbra in Portugal. The dataset consists 165 data points and 50 features, of which 17 are clinical features.
 
 The notebooks expect an HCC dataset in CSV format with a target column named `Class`. The CSV is not included in this repository. In the notebook entry cells, the dataset path is currently set to `/content/hcc.csv` (a Google Colab path). Place the dataset there when using Colab, or change the path to the CSV location in your environment.
 
